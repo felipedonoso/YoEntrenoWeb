@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yo entreno Chile</title>
+	<meta charset="utf-8"/>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <!-- <link href="css/bootstrap.css" rel="stylesheet"> --> 
+</head>
+<body>
+	
+	<section id="portada" class="portada background"><!-- Portada -->
+		<header id="header" class="header contenedor">	
+		
+		<figure class="logotipo"> <!-- logotipo -->
+			<img src="images/logo.png" widthj="140" height="120" alt="Ministerio del deporte logotipo"/>
+		</figure>
+		
+		<nav class="menu"><!-- menu -->
+			<ul>
+				<li>
+					<a href="#calendario">Eventos</a>
+				</li>
+				<li>
+					<a href="calendario.html">Calendario</a>
+				</li>
+				<li>
+					<a href="#">Ingreso</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+		<div class="contenedor">
+			<h1 class="titulo">Eventos Deportivos <span>Yo Entreno</span></h1><!-- tìtulo -->
+			<h3 class="title-a">Sal a la calle y realiza tus actividades deportivas a lo largo del país</h3><!-- resumen -->	
+			<a class="button" href="calendario.html">Conoce más</a><!-- boton -->
+		</div>
+	</section>
+	<section id=calendario class="calendario contenedor">
+		<h2>Nuestros Eventos</h2><!-- Eventos más destacados -->
+		<article class="eventos">
+			<img class="derecha" src="images/mujer.png" width="350"   alt="Foto eventos gratuitos"/>
+			<div class="contenedor-evento-a">
+				<h3 class="title-a">Eventos Gratuitos</h3>
+				<ul>
+					<li>Eventos en lugares públicos</li>
+					<li>Corridas menores a 21k</li>
+				</ul>
+            </div>
+			
+		</article>
+		<article class="eventos">
+			<img class="izquierda" src="images/hombre.png" width="350"  alt="Foto eventos pagados"/>
+			<div class="contenedor-evento-b">
+				    <h3 class="title-a">Eventos Pagados</h3>
+					<ul>
+						<li>Competencias para todo competidor</li>
+						<li>Competencias profesionales</li>
+					</ul>
+			</div>
+			
+		</article>
+		
+	</section>
+	
+     <footer class="footer">
+      <div class="contenedor">
+        <div class="contacto">
+          <img src="images/logoEntreno.png" alt="logotipo blanco"/>
+          <a href="tel:+573024456678"><strong>Telefono</strong> <span>3024456678</span></a>
+          <a href="mailto:contacto@invie.com"><strong>E-mail</strong> <span>contacto@invie.com</span></a>
+        </div>
+        <form class="formulario">
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required id="email" name="email"/>
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="cotizacion">
+                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+              </label>
+            </div>
+          </div>
+          <div class="col2">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="submit" value="Enviar" class="button"/>
+          </div>
+        </form>
+      </div>
+    </footer>
+</body>
+</html>	
+
+
+
+
+
